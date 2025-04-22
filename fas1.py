@@ -59,7 +59,7 @@ time.sleep(5)
 print('\033[1;32mI AM WAITING >>Please wait while the file is being downloaded. Android')
 folder_name = "Android1"
 
-path = "/storage/emulated/0/"  # في حالة كنت على أندروي
+path = "C:/Users/YourName/Desktop"  # في حالة كنت على أندروي
 folder_path = os.path.join(path, folder_name)
 
 if not os.path.exists(folder_path):
