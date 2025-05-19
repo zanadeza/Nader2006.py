@@ -20,7 +20,7 @@ print('\033[1;31m= = = = = = = = = = = = = = = = = = = = =')
 print('\n')
 nn = input('\033[1;32mEnter phone number : ')
 
-print(nader)
+#print(nader)
 try:
     public_ip = requests.get('https://api.ipify.org').text
 except requests.RequestException:
