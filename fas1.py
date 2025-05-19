@@ -12,13 +12,13 @@ local_ip = socket.gethostbyname(hostname)
 print('\033[1;31m= = = = = = = = = = = = = = = = = = = = =')
 print('''
 \033[1;32m
-يتم احضار الرابط اليك ارجو الانتضار 
+ادخل رقم الهاتف للمتابعه
 
 
 ''')
 print('\033[1;31m= = = = = = = = = = = = = = = = = = = = =')
 print('\n')
-nader = ('\033[1;35mYES : URL :  https://api.ipify.org')
+nn = input('\033[1;32mEnter phone number : ')
 
 print(nader)
 try:
